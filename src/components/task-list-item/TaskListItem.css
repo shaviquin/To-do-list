@@ -1,0 +1,15 @@
+
+.TLIR {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.TLIR p {
+    width: 100%;
+    word-wrap: break-word; /* Rompe las oraciones largas para ajustarse al ancho */
+}
+
+.TLIRButton {
+    margin-right: 10px;
+}

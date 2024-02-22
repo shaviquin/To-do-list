@@ -1,0 +1,31 @@
+
+.TaskList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+    margin: 0 auto;
+    overflow: auto;
+    background-color: #B6BBC4;
+    border: 0;
+    border-radius: 10px;
+    padding: 20px ;
+}
+.TaskList > h1 {
+    margin-bottom: 20px;
+}
+.TaskListItems {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.InputTask {
+    margin-right: 10px;
+}
+.AddTask {
+    margin-bottom: 20px;
+}
+.AddTaskButtons {
+    margin-right:10px;
+}
